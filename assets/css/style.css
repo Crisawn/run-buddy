@@ -9,7 +9,6 @@
     --tertiary-color: #39a6b2;
   }
 body {
-    /* more on this crazy alphanumerical value in a minute! */
     color: var(--tertiary-color);
     font-family: Helvetica, Arial, sans-serif;
   }
@@ -314,22 +313,6 @@ header {
       flex: 12;
     }
     
-<<<<<<< HEAD
-    .step-text p {
-      color: var(--tertiary-color);
-      font-size: 18px;
-    }
-    
-    .step-text h4 {
-      font-size: 26px;
-      line-height: 1.5;
-      color: var(--secondary-color);
-    }
-/* Steps Styling End*/
-
-/* Trainers start */
-.trainers {
-=======
       .step h3 {
           color: #024e76;
           font-size: 46px;
@@ -346,7 +329,6 @@ header {
         color: #024e76;
       }
       .trainers {
->>>>>>> feature/flexbox
         width: 100%;
         margin: 0 auto;
         display: flex;
